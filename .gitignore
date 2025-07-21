@@ -1,0 +1,9 @@
+# Ignoring build directories
+/build/
+.gradle/
+
+# Ignoring IDE configurations
+.idea/
+
+# Ignoring local configuration files
+local.properties
