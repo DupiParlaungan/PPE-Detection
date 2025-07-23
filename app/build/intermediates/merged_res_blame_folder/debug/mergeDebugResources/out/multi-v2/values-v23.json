@@ -4,7 +4,26 @@
             "outputFile": "com.example.ppedetection.app-mergeDebugResources-33:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14\\transforms\\3e62e247d9a80bff39910c4456f8151d\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14.3\\transforms\\e0cc0bcae76ca706ef5faae7f4384978\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14.3\\transforms\\f0c05b10b24732c2c901fe0b028e8f25\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14\\transforms\\ac1c51dda8a370ce305940e3443ae1ec\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
+                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14.3\\transforms\\3acf90b17f859a076f6b5252951007f8\\transformed\\appcompat-1.7.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -31,25 +50,6 @@
                         "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14\\transforms\\e3486c6aeb1129574c6bbdfd6497cce5\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3377"
                     }
                 }
             ]

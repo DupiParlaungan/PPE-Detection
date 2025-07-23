@@ -1,9 +1,11 @@
 package com.example.ppedetection
 
 import android.content.Context
-import org.tensorflow.lite.task.gms.vision.detector.ObjectDetector
-import org.tensorflow.lite.task.gms.vision.detector.Detection
-import org.tensorflow.lite.task.gms.vision.detector.ObjectDetector.ObjectDetectorOptions
+import android.graphics.Bitmap
+import org.tensorflow.lite.support.image.TensorImage
+import org.tensorflow.lite.task.vision.detector.ObjectDetector
+import org.tensorflow.lite.task.vision.detector.Detection
+import org.tensorflow.lite.task.vision.detector.ObjectDetector.ObjectDetectorOptions
 
 class ObjectDetectorHelper(context: Context) {
     private val detector: ObjectDetector
@@ -20,10 +22,10 @@ class ObjectDetectorHelper(context: Context) {
         )
     }
 
-    fun detect(bitmap: android.graphics.Bitmap): List<Detection> {
+    fun detect(bitmap: Bitmap): List<Detection> {
         // Konversi Bitmap ke TensorImage seperti komentar pada kode.
         val tensorImage =
-            org.tensorflow.lite.support.image.TensorImage.fromBitmap(bitmap)
+            TensorImage.fromBitmap(bitmap)
         return detector.detect(tensorImage)
     }
 }

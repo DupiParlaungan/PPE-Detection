@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         if (results.isNotEmpty()) {
             val category = results[0].categories.first()
             runOnUiThread {
-                binding.labelText.text = "${'$'}{category.label} ${'$'}{String.format("%.2f", category.score)}"
+                binding.labelText.text = "${category.label} ${String.format("%.2f", category.score)}"
             }
         }
         imageProxy.close()
