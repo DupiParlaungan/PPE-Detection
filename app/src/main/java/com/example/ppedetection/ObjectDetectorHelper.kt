@@ -1,9 +1,9 @@
 package com.example.ppedetection
 
 import android.content.Context
-import org.tensorflow.lite.task.vision.detector.ObjectDetector
-import org.tensorflow.lite.task.vision.detector.Detection
-import org.tensorflow.lite.task.vision.detector.ObjectDetector.ObjectDetectorOptions
+import org.tensorflow.lite.task.gms.vision.detector.ObjectDetector
+import org.tensorflow.lite.task.gms.vision.detector.Detection
+import org.tensorflow.lite.task.gms.vision.detector.ObjectDetector.ObjectDetectorOptions
 
 class ObjectDetectorHelper(context: Context) {
     private val detector: ObjectDetector
