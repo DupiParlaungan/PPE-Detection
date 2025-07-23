@@ -111,5 +111,6 @@ fun ImageProxy.toBitmap(): Bitmap? {
     val out = ByteArrayOutputStream()
     yuvImage.compressToJpeg(Rect(0, 0, width, height), 100, out)
     val imageBytes = out.toByteArray()
+    out.close()
     return BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.size)
 }
