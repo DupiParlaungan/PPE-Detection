@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             )
         }
         detector = ObjectDetectorHelper(this)
-        startCamera()
     }
 
     override fun onRequestPermissionsResult(
