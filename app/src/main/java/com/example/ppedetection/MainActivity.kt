@@ -15,6 +15,7 @@ import androidx.camera.core.ImageProxy
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import android.content.pm.PackageManager
 import com.example.ppedetection.databinding.ActivityMainBinding
 import java.util.concurrent.Executors
 
