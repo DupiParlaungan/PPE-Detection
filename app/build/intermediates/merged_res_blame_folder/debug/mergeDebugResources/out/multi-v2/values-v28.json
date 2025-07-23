@@ -4,26 +4,7 @@
             "outputFile": "com.example.ppedetection.app-mergeDebugResources-33:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14\\transforms\\ac1c51dda8a370ce305940e3443ae1ec\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,397",
-                        "endLines": "2,3,7,11",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,392,584"
-                    },
-                    "to": {
-                        "startLines": "14,15,16,20",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1142,1217,1304,1484",
-                        "endLines": "14,15,19,23",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "1212,1299,1479,1671"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14\\transforms\\3e62e247d9a80bff39910c4456f8151d\\transformed\\material-1.11.0\\res\\values-v28\\values-v28.xml",
+                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14.3\\transforms\\f0c05b10b24732c2c901fe0b028e8f25\\transformed\\material-1.11.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,27",
                         "endColumns": "97,95,94,97,87,87,87,87,86,86,86,86,10",
                         "endOffsets": "148,244,339,437,525,613,701,789,876,963,1050,1137,1958"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\caches\\8.14.3\\transforms\\3acf90b17f859a076f6b5252951007f8\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1142,1217,1304,1484",
+                        "endLines": "14,15,19,23",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "1212,1299,1479,1671"
                     }
                 }
             ]

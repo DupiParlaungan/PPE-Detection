@@ -2,5 +2,9 @@
     {
         "merged": "com.example.ppedetection.app-debug-35:/layout_activity_main.xml.flat",
         "source": "com.example.ppedetection.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\2024_Aplikasi_Android\\daemon\\8.14.3\\com.example.ppedetection.app-debug-35:\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidStudio\\2024_Aplikasi_Android\\daemon\\8.14.3\\com.example.ppedetection.app-main-37:\\layout\\activity_main.xml"
     }
 ]

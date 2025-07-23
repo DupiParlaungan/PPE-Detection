@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var detector: ObjectDetectorHelper
     private val executor = Executors.newSingleThreadExecutor()
+    private val cameraPermissionCode = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         if (results.isNotEmpty()) {
             val category = results[0].categories.first()
             runOnUiThread {
-                binding.labelText.text = "${'$'}{category.label} ${'$'}{String.format("%.2f", category.score)}"
+                binding.labelText.text = "${category.label} ${String.format("%.2f", category.score)}"
             }
         }
         imageProxy.close()
